@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_admin"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="326dp"
+        android:layout_gravity="center"
+        android:layout_weight="1.05"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_afficher_evenement"
+            android:layout_width="177dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/roseBoutton"
+            android:gravity="center"
+            android:text="Afficher évènements"
+            android:textColor="@color/blanc" />
+
+        <Button
+            android:id="@+id/btn_ajouter_evenement"
+            android:layout_width="177dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/roseBoutton"
+            android:text="Ajouter évènement"
+            android:textColor="@color/blanc" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:layout_weight="0.34"
+        android:gravity="right"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_deconnexion"
+            android:layout_width="118dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="25dp"
+            android:background="@color/roseBoutton"
+            android:text="Déconnexion"
+            android:textColor="@color/blanc" />
+
+    </LinearLayout>
+
+</LinearLayout>
